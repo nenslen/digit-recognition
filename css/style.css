@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+p {
+  text-align: left; }
+
+canvas {
+  background-color: white;
+  border: 1px solid black;
+  height: 100%; }
+
+img {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border: 5px solid white;
+  min-width: 75%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#result {
+  font-family: 'Ubuntu', sans-serif;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#bars {
+  border: 2px solid #81bae7;
+  max-width: 800px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5px; }
+  #bars .bar {
+    height: 30px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+    #bars .bar .barValue {
+      background-color: #81bae7;
+      width: 50%;
+      display: inline-block; }
+    #bars .bar .barLabel {
+      font-size: 1.2em;
+      display: inline-block;
+      margin-right: 5px; }
+
+#sketchpad {
+  margin-right: 0; }
+
+#resizedCanvas {
+  margin-left: 0; }
+
+#resizedCanvasOuter {
+  display: none; }
+  @media screen and (min-width: 500px) {
+    #resizedCanvasOuter {
+      display: block; } }
+  @media screen and (min-width: 800px) {
+    #resizedCanvasOuter {
+      display: block; } }
+
+#controls {
+  max-width: 500px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#canvas-container {
+  margin-left: auto;
+  margin-right: auto; }
+
+.section {
+  max-width: 1000px; }
+
+/*# sourceMappingURL=style.css.map */
